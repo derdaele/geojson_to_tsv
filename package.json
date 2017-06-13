@@ -1,0 +1,26 @@
+{
+  "name": "geojson_to_tsv",
+  "version": "1.0.0",
+  "description": "Convert a geojson FeatureCollection to a simple TSV file",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": {
+    "geojson_to_tsv": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/derdaele/geojson_to_tsv.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/derdaele/geojson_to_tsv/issues"
+  },
+  "homepage": "https://github.com/derdaele/geojson_to_tsv#readme",
+  "dependencies": {
+    "JSONStream": "^1.3.1",
+    "wellknown": "^0.5.0"
+  }
+}
