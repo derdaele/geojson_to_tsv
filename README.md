@@ -22,3 +22,7 @@ then I run
 ```bash
 $ geojson_to_tsv samples/schools
 ```
+
+## Why?
+
+The fastest way to insert data in postgres is to use the COPY command from a text file with separated values. The goal of this tool is to transform a geojson into a such a file by separating the transformation logic from the data schema logic to easy this task on several data sources with different data to import.
